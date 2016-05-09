@@ -1,0 +1,28 @@
+body {
+	background: #ECEEEF;
+	text-align: center;
+	margin: 100px auto;
+	max-width: 426px;
+	padding: 0 40px;
+	font: 10px normal 'Varela Round', Helvetica, serif;
+	color: #777B7E;
+}
+
+input {
+	font-family: 'Varela Round', Helvetica, serif;
+	font-size: 18px;
+	padding: 31 0;
+	margin: 10px 0;
+	text-align: center;
+	width: 360px;
+	border-radious: 4px; 
+	border: 1px solid #D5DDE4; 
+	color: #2C3238; 
+}
+
+.button {
+	border-color: #5FB6E1;
+	background: #5FB6E1;
+	color: #fff; 
+}
+
