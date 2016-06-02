@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 // setting up server to handle the GET request for a site
-app.get('/api/sites/:id', function (req, res) {
+app.get('/statusupdatechecker.herokuapp.com/sites/:id', function (req, res) {
   var todoId = parseInt(req.params.id);
 
   // using id to find the site
@@ -15,7 +15,7 @@ app.get('/api/sites/:id', function (req, res) {
 });
 
 // setting up server route to handle the POST request
-app.post ('api/sites', function (req, res){
+app.post ('statusupdatechecker.herokuapp.com/sites', function (req, res){
 
 	// create a new site with form data
 	var newSite = req.body;
